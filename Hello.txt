@@ -1,0 +1,3 @@
+Hello!
+This is my GitHub exercise for DS4200.
+Learning commit and push.
