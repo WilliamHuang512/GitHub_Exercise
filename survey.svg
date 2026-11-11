@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" role="img" aria-label="Diagram of the project survey's four question groups: background, usage, attitudes, and effect on learning">
+  <rect width="560" height="260" fill="#fdfbf7"/>
+  <text x="280" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1d2433">24-question survey, 4 question groups</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="20" y="60" width="120" height="170" rx="12" fill="#2f6f73"/>
+    <text x="80" y="95" fill="#fff" font-size="15" font-weight="bold">Background</text>
+    <text x="80" y="130" fill="#e6f0f0" font-size="12">school</text><text x="80" y="150" fill="#e6f0f0" font-size="12">age</text><text x="80" y="170" fill="#e6f0f0" font-size="12">year</text><text x="80" y="190" fill="#e6f0f0" font-size="12">college / major</text>
+    <rect x="155" y="60" width="120" height="170" rx="12" fill="#c8553d"/>
+    <text x="215" y="95" fill="#fff" font-size="15" font-weight="bold">Usage</text>
+    <text x="215" y="130" fill="#fbe7e1" font-size="12">hours per week</text><text x="215" y="150" fill="#fbe7e1" font-size="12">% of assignments</text><text x="215" y="170" fill="#fbe7e1" font-size="12">reliance (1–5)</text><text x="215" y="190" fill="#fbe7e1" font-size="12">tools &amp; purposes</text>
+    <rect x="290" y="60" width="120" height="170" rx="12" fill="#1d2433"/>
+    <text x="350" y="95" fill="#fff" font-size="15" font-weight="bold">Attitudes</text>
+    <text x="350" y="130" fill="#d9dde6" font-size="12">sentiments over</text><text x="350" y="150" fill="#d9dde6" font-size="12">3 years</text><text x="350" y="170" fill="#d9dde6" font-size="12">excitement / concern</text><text x="350" y="190" fill="#d9dde6" font-size="12">attitude score (1–10)</text>
+    <rect x="425" y="60" width="120" height="170" rx="12" fill="#5a6478"/>
+    <text x="485" y="95" fill="#fff" font-size="15" font-weight="bold">Learning</text>
+    <text x="485" y="130" fill="#eceef2" font-size="12">independent</text><text x="485" y="150" fill="#eceef2" font-size="12">thinking</text><text x="485" y="170" fill="#eceef2" font-size="12">learning impact</text><text x="485" y="190" fill="#eceef2" font-size="12">verifying AI output</text>
+  </g>
+</svg>
