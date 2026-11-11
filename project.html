@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Project | Helpful or Harmful?</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">William Huang</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="project.html" class="active">The Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Helpful or Harmful? College Students' Evolving Perception of AI</h2>
+    <p>Our DS4200 group project (Group 6) studies how college students use generative AI and how they feel about it. Most existing research looks at a single moment in time, but we want to understand how student attitudes have evolved over the past three years. We ask students how they felt about AI three years ago, one year ago, and today, so we can see whether early excitement has turned into concern, or whether early skepticism has turned into acceptance.</p>
+    <p>We are especially interested in the relationship between reliance and perceived learning. A student might say AI improves their learning while also admitting that it makes them think less independently. Because several of our questions measure similar ideas from different angles, such as weekly hours of use, the share of assignments involving AI, and a self-rated reliance score, we can compare them and look for patterns as well as inconsistencies in how students describe themselves.</p>
+
+    <figure>
+      <img src="images/survey.svg" alt="Diagram of the survey's four question groups: background, usage, attitudes, and effect on learning">
+      <figcaption>Our survey's 24 questions fall into four groups of features.</figcaption>
+    </figure>
+
+    <h3>What the existing research says</h3>
+    <p>Two recent studies shaped our project. A survey of more than 95,000 students at 20 U.S. universities (Chirikov, Smirnov &amp; Kizilcec, 2026, <em>Science</em>) found that 37% regularly use generative AI. On the faculty side, a survey of 1,057 U.S. college faculty (Watson &amp; Rainie, 2026, AAC&amp;U and Elon University) found that most instructors are worried. Hover over the bars below to see details.</p>
+
+    <div class="card">
+      <div id="chart"></div>
+    </div>
+
+    <h3>How we are collecting data</h3>
+    <ol class="styled">
+      <li>Build an anonymous Google Forms survey that takes about 5–7 minutes to complete.</li>
+      <li>Share it with Northeastern friends, Greek organizations, class group chats, and Canvas/Discord channels.</li>
+      <li>Post flyers in Snell Library, Dodge Hall, Richards Hall, and other busy spots if we need more responses.</li>
+      <li>Aim for 300 responses and keep at least 200 valid ones after removing incomplete or out-of-range answers.</li>
+    </ol>
+
+    <h3>Limitations we are keeping in mind</h3>
+    <ul class="styled">
+      <li>It is a convenience sample, so our friends and classmates may be overrepresented.</li>
+      <li>Students with strong opinions about AI may be more likely to respond.</li>
+      <li>Usage hours and percentages are self-reported estimates, and some students may underreport.</li>
+    </ul>
+    <p>To be transparent about these limits, we will report the sample's makeup by university, age, year in school, and college or major, so readers can judge how far our findings generalize.</p>
+
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <p>Questions about the project? Find me on GitHub: <a href="https://github.com/WilliamHuang512" target="_blank" rel="noopener">github.com/WilliamHuang512</a></p>
+      <p><a href="index.html">← Back to the home page</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 William Huang · Built for DS4200 with HTML, CSS, and D3.js</footer>
+  <div class="tooltip" id="tooltip"></div>
+  <script src="js/chart.js"></script>
+</body>
+</html>
